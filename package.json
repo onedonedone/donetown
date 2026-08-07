@@ -1,0 +1,13 @@
+{
+    "devDependencies": {
+        "markdown-it-mathjax3": "4.3.2",
+        "prettier": "3.9.6",
+        "vitepress": "2.0.0-alpha.19"
+    },
+    "name": "donetown",
+    "scripts": {
+        "build": "vitepress build notes",
+        "write": "vitepress dev notes"
+    },
+    "type": "module"
+}
