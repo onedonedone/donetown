@@ -1,0 +1,21 @@
+@import "@fontsource-variable/jetbrains-mono/wght-italic.css";
+@import "@fontsource-variable/jetbrains-mono/wght.css";
+@import "@fontsource-variable/noto-sans-sc/wght.css";
+@import "katex/dist/katex.min.css";
+
+:root {
+    --vp-c-indigo-1: #3052b2; /* OkLCh(47.0% 0.158 267) -> OkLCh(47.0% 0.158 266) */
+    --vp-c-indigo-2: #375dcc; /* OkLCh(51.5% 0.178 267) -> OkLCh(51.5% 0.178 266) */
+    --vp-c-indigo-3: #5073cd; /* OkLCh(57.5% 0.144 269) -> OkLCh(57.5% 0.144 266) */
+    --vp-c-indigo-soft: #4574ff24; /* OkLCh(60.7% 0.215 276) -> OkLCh(60.7% 0.215 266) (GAMUT) */
+    --vp-font-family-base: "Noto Sans SC Variable", sans-serif;
+    --vp-font-family-mono: "JetBrains Mono Variable", "Noto Sans SC Variable", monospace;
+    scrollbar-gutter: stable;
+}
+
+.dark {
+    --vp-c-indigo-1: #97b7ff; /* OkLCh(78.3% 0.111 278) -> OkLCh(78.3% 0.111 266) (GAMUT) */
+    --vp-c-indigo-2: #4e77e7; /* OkLCh(59.8% 0.176 272) -> OkLCh(59.8% 0.176 266) */
+    --vp-c-indigo-3: #3b64dd; /* OkLCh(54.4% 0.191 267) -> OkLCh(54.4% 0.191 266) */
+    --vp-c-indigo-soft: #4574ff29; /* OkLCh(60.7% 0.215 276) -> OkLCh(60.7% 0.215 266) (GAMUT) */
+}
