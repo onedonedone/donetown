@@ -1,5 +1,8 @@
+import { katex } from "@mdit/plugin-katex";
 import { defineConfig } from "vitepress";
 
-import { donetown } from "./theme/config";
-
-export default defineConfig({ extends: donetown });
+export default defineConfig({
+    description: "done wiki.",
+    markdown: { config: (md) => void md.use(katex) },
+    title: "donetown",
+});

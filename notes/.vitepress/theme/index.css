@@ -1,0 +1,21 @@
+@import "@fontsource-variable/jetbrains-mono/wght-italic.css";
+@import "@fontsource-variable/jetbrains-mono/wght.css";
+@import "@fontsource-variable/noto-sans-sc/wght.css";
+@import "katex/dist/katex.min.css";
+
+:root {
+    --vp-c-indigo-1: #1752bc;
+    --vp-c-indigo-2: #2660cb;
+    --vp-c-indigo-3: #3773df;
+    --vp-c-indigo-soft: rgba(65, 125, 234, 0.14);
+    --vp-font-family-base: "Noto Sans SC Variable", sans-serif;
+    --vp-font-family-mono: "JetBrains Mono Variable", "Noto Sans SC Variable", monospace;
+    scrollbar-gutter: stable;
+}
+
+.dark {
+    --vp-c-indigo-1: #90b9ff;
+    --vp-c-indigo-2: #3e7ae7;
+    --vp-c-indigo-3: #2e69d5;
+    --vp-c-indigo-soft: rgba(65, 125, 234, 0.16);
+}
