@@ -1,3 +1,5 @@
+<sub>[English](README.en.md) · **简体中文**</sub>
+
 # 图标的视觉设计
 
 图标文字取自 $`\TeX`$ 数学公式 $`\mathrm{d}t`$，对应项目名称 donetown 中两个组成部分的首字母．字形由 MathJax 4.1.3 渲染，使用 New Computer Modern 字体．
