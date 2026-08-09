@@ -9,7 +9,7 @@
         "skipLibCheck": true,
         "strict": true,
         "target": "ES2022",
-        "types": ["vite/client"],
+        "types": ["node", "vite/client"],
         "verbatimModuleSyntax": true
     },
     "exclude": ["notes/.vitepress/cache", "notes/.vitepress/dist"],

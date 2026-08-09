@@ -1,6 +1,8 @@
 import { katex } from "@mdit/plugin-katex";
 import { defineConfig } from "vitepress";
 
+const base = process.env.GITHUB_ACTIONS ? "/donetown/" : "/";
+
 const sidebar = [
     {
         items: [
@@ -12,8 +14,9 @@ const sidebar = [
 ];
 
 export default defineConfig({
+    base,
     description: "notebook scaffold.",
-    head: [["link", { href: "/icon/dt.ico", rel: "icon" }]],
+    head: [["link", { href: `${base}icon/dt.ico`, rel: "icon" }]],
     markdown: { config: (md) => void md.use(katex) },
     srcExclude: ["public/**"],
     themeConfig: {
