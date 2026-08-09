@@ -1,0 +1,8 @@
+:root {
+    --vp-font-family-base:
+        "Noto Sans SC Variable", -apple-system, BlinkMacSystemFont, sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --vp-font-family-mono:
+        "JetBrains Mono Variable", "Noto Sans SC Variable", ui-monospace, "Menlo", "Monaco",
+        "Consolas", "Liberation Mono", "Courier New", monospace;
+}
