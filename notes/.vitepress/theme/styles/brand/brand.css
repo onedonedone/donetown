@@ -1,0 +1,17 @@
+:root {
+    --vp-button-brand-active-bg: rgb(24, 82, 188);
+    --vp-button-brand-hover-bg: rgb(40, 98, 205);
+    --vp-c-brand-1: rgb(44, 102, 209);
+    --vp-c-brand-2: rgb(28, 86, 192);
+    --vp-c-brand-3: rgb(55, 114, 222);
+    --vp-c-brand-soft: rgb(228, 237, 252);
+}
+
+.dark {
+    --vp-button-brand-active-bg: rgb(86, 146, 255);
+    --vp-button-brand-hover-bg: rgb(69, 130, 239);
+    --vp-c-brand-1: rgb(98, 155, 255);
+    --vp-c-brand-2: rgb(126, 173, 255);
+    --vp-c-brand-3: rgb(55, 114, 222);
+    --vp-c-brand-soft: rgb(39, 53, 76);
+}
