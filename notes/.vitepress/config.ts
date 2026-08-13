@@ -5,6 +5,16 @@ export default defineConfig({
     head: [["link", { href: "/icon/dt.ico", rel: "icon" }]],
     lang: "zh-SG",
     srcExclude: ["public/**"],
-    themeConfig: { logo: "/icon/dt.png" },
+    themeConfig: {
+        logo: "/icon/dt.png",
+        notFound: {
+            code: "404",
+            link: "/",
+            linkLabel: "Home",
+            linkText: "Home",
+            quote: "Living is keeping the absurd alive.",
+            title: "NOTHINGNESS",
+        },
+    },
     title: "donetown",
 });
